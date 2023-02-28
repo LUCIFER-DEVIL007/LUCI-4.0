@@ -7,7 +7,7 @@ module.exports = {
   desc: "To get concurrent group link.",
   category: "Group",
   usage: "gclink",
-  react: "🍁",
+  react: "🌪️",
   start: async (
     Miku,
     m,
