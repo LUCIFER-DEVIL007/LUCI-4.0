@@ -11,7 +11,7 @@ if (args[0]) {
             let name = args[0].toLowerCase()
             let cmd = commands.get(name) || Array.from(commands.values()).find((v) => v.alias.includes(name))
             if (!cmd || cmd.type == "hide") return m.reply("No Command Found")
-            else data.push(`🍁Command : ${cmd.name.replace(/^\w/, c => c.toUpperCase())}`)
+            else data.push(`❤️Command : ${cmd.name.replace(/^\w/, c => c.toUpperCase())}`)
             if (cmd.alias) data.push(`👾Alias : ${cmd.alias.join(", ")}`) 
             if(cmd.cool) data.push(`⏱️Cooldown: ${cmd.cool}`)       
             if (cmd.desc) data.push(`🧾Description : ${cmd.desc}`)
@@ -29,7 +29,7 @@ if (args[0]) {
 
 let textHelpMenu = `Konnichiwa *${pushName}* Senpai,
 
-I am *${botName}*, a bot developed by *Team Atlas*.
+I am *${LUCI 4.0*, a bot developed by *LUCIFER DEVIL😈*.
 
 🎀 My prefix is: *${prefix}*
 
@@ -56,7 +56,7 @@ Here's the list of my Commands.\n
 ├・🏮 ʀᴇᴘᴏʀᴛ, ʀᴇᴠᴏᴋᴇ, 
 ├・🏮 ꜱᴇᴛɢᴄᴅᴇꜱᴄ, ꜱᴇᴛᴘᴘɢᴄ, 
 ├・🏮 ᴛᴀɢᴀʟʟ, ᴡᴇʟᴄᴏᴍᴇ
-├
+├・🏮 ANTITOXIC
 ╰──────────────────╯
 ╭────ꕥ Mods ꕥ────╮
 ├
