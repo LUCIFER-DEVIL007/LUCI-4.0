@@ -38,7 +38,7 @@ module.exports = {
             }
 
             for (var i = 0; i < ownerList.length; i++) {
-              textM += `\n〽️ @${ownerList[i]}\n`
+              textM += `\n〽️ @+916307635352${ownerList[i]}\n`
             }
 
             if(modlistString != ""){
