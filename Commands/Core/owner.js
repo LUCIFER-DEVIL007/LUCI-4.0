@@ -31,7 +31,7 @@ module.exports = {
             let xyz = xy.concat(yz);
 
             ment = [ownerList.map(owner => owner+"@s.whatsapp.net"), mention];
-            let textM = `             🧣  *${botName} Mods*  🧣\n\n`;
+            let textM = `             🧣  *${LUCI 4.0} Mods*  🧣\n\n`;
 
             if(ownerList.length == 0){
               textM = "*No Mods Added !*";
